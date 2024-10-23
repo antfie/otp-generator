@@ -1,2 +1,5 @@
 .idea
 otp.html
+dist
+coverage.out
+coverage.html
