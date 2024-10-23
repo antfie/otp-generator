@@ -13,7 +13,7 @@ This simple tool creates a One-Time Pad (OTP) as an HTML page. The style of the 
 Here is an example of generating a 10x10 OTP:
 
 ```bash
-./otp-generator-mac-amd64-1.0 10
+go run main.go 10
 ```
 
 ![example.png](docs/example.png)
