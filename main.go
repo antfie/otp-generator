@@ -30,6 +30,10 @@ func main() {
 		log.Fatal("Dimension must be an integer e.g. \"5\" for 5x5 OTP.")
 	}
 
+	if dimension < 5 {
+		log.Fatal("There is little cryptographic benefit from any OTP less than 5x5, which is also questionable.")
+	}
+
 	otp := generateRandomCode(dimension*dimension, alphabet)
 
 	// "X" is used for no style/color. This "XXX" trickery is done to keep style and colour occurrences down
