@@ -20,4 +20,4 @@ go run main.go 10
 
 # Credits
 
-This tool was created by Anthony Fielding.
+This tool was created by Anthony Fielding. It was inspired by this physical device [PassCard by Minute Objects](https://www.kickstarter.com/projects/minuteobjects/passcard).
