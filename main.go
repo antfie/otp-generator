@@ -25,6 +25,7 @@ func main() {
 	}
 
 	dimension, err := strconv.Atoi(os.Args[1])
+
 	if err != nil {
 		log.Fatal("Dimension must be an integer e.g. 5 for 5x5 OTP.")
 	}
