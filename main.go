@@ -30,8 +30,11 @@ func main() {
 	}
 
 	otp := generateRandomCode(dimension*dimension, alphabet)
+
+	// "X" is used for no style/color. This "XXX" trickery is done to keep style and colour occurrences down
 	styles := generateRandomCode(dimension*dimension, "XXXXXXX1XXXXXXX2XXXXXXX")
 	colors := generateRandomCode(dimension*dimension, "XXXX1XXXX2XXXX3XXXX4XXX")
+
 	body := generateOTPHTMLTable(dimension, otp, styles, colors)
 	output := strings.Replace(loadHTMLTemplate(), " {{todo}}", body, 1)
 
