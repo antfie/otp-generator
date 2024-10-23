@@ -21,13 +21,13 @@ func main() {
 	}
 
 	if len(os.Args) < 2 {
-		log.Fatal("Need to specify a dimension e.g. 5 for 5x5 OTP.")
+		log.Fatal("A dimension is required e.g. \"5\" for 5x5 OTP.")
 	}
 
 	dimension, err := strconv.Atoi(os.Args[1])
 
 	if err != nil {
-		log.Fatal("Dimension must be an integer e.g. 5 for 5x5 OTP.")
+		log.Fatal("Dimension must be an integer e.g. \"5\" for 5x5 OTP.")
 	}
 
 	otp := generateRandomCode(dimension*dimension, alphabet)
