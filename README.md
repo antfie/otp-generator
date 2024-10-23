@@ -1,7 +1,9 @@
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/antfie/otp-generator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/antfie/FoxBot)](https://goreportcard.com/report/github.com/antfie/otp-generator)
 
-# otp-generator
+# OTP Generator
 
-This tool generates an OTP as an HTML page. The style of the OTP grid can be configured by modifying the CSS either in the template or generated file `otp.html`.
+This simple tool creates a One-Time Pad (OTP) as an HTML page. The style of the OTP grid can be configured by modifying the CSS either in the template or the generated file `otp.html`.
 
 ## Example
 
@@ -12,3 +14,7 @@ go run main.go 10
 ```
 
 ![example.png](docs/example.png)
+
+# Credits
+
+This tool was created by Anthony Fielding.
