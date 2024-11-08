@@ -2,7 +2,7 @@
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/antfie/otp-generator)
 [![Go Report Card](https://goreportcard.com/badge/github.com/antfie/FoxBot)](https://goreportcard.com/report/github.com/antfie/otp-generator)
 ![GitHub Release](https://img.shields.io/github/v/release/antfie/otp-generator)
-![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/antfie/otp-generator/latest/total)
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/antfie/otp-generator/total)
 
 # OTP Generator
 
