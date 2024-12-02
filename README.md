@@ -6,7 +6,7 @@
 
 # OTP Generator
 
-This simple tool creates a One-Time Pad (OTP) as an HTML page. Colors and styles are introduced to aid visual reference. The style of the OTP grid can be configured by modifying the CSS either in the template or the generated file `otp.html`.
+This simple tool creates a One-Time Pad (OTP) as an HTML page. Colors and styles are introduced to aid visual reference. The style of the OTP grid can be configured by modifying the CSS either in the template or the generated file `otp.html`. Re-using a grid more than once means it's no longer an OTP and just a code book.
 
 ## Example
 
